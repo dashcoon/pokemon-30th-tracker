@@ -1,0 +1,189 @@
+{
+  "products": [
+    "Elite Trainer Box — Nidorina",
+    "Booster Bundle — 6 packs",
+    "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+    "Ultra-Premium Collection — Pokémon Night Out (Pikachu ex & Umbreon ex)",
+    "Binder Collection",
+    "Poster Collection",
+    "Tech Sticker Collection — Lucario",
+    "Tech Sticker Collection — Alolan Exeggutor",
+    "Figure Collection — Mew",
+    "Figure Collection — Mewtwo",
+    "Booster Pack",
+    "Ditto Premium Collection",
+    "Pokémon ex Box — Greninja ex",
+    "Pokémon ex Box — Sylveon ex",
+    "Pokémon ex Tin — Greninja ex",
+    "Pokémon ex Tin — Sylveon ex",
+    "Battle Deck — Espeon ex",
+    "Battle Deck — Umbreon ex",
+    "2-Pack Blister — Eevee",
+    "Mini Tin — Day",
+    "Mini Tin — Night",
+    "Pokémon Center Elite Trainer Box",
+    "Knock Out Collection — Eevee"
+  ],
+  "retailers": [
+    "Kids-world",
+    "Faraos",
+    "KoCardz",
+    "Pokehulen",
+    "Symbizon",
+    "Rogerz",
+    "Toys'n'Loot",
+    "Coolshop",
+    "&Cards",
+    "Pocket Monster",
+    "Epic Panda",
+    "Vaulted",
+    "Kelz0r",
+    "CardX"
+  ],
+  "listings": [
+    {
+      "id": "retailer-001",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Kids-world",
+      "url": "https://www.kids-world.dk/pokemon-samlekort-30th-celebration-elite-trainer-box-p-457153.html"
+    },
+    {
+      "id": "retailer-002",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Faraos",
+      "url": "https://www.faraos.dk/games/kortspil/pokemon/elitetrainerbox/30thanniversary/30th-celebration-elite-trainer-boks-pokemon"
+    },
+    {
+      "id": "retailer-003",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "KoCardz",
+      "url": "https://www.kocardz.dk/vare/30th-celebration-elite-trainer-box-etb/"
+    },
+    {
+      "id": "retailer-004",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Pokehulen",
+      "url": "https://pokehulen.dk/products/pokemon-tcg-30th-celebration-elite-trainer-box-etb"
+    },
+    {
+      "id": "retailer-005",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Symbizon",
+      "url": "https://symbizon.dk/products/pokemon-kort-30-ars-jubilaeum-day-and-night-elite-trainer-box"
+    },
+    {
+      "id": "retailer-006",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Rogerz",
+      "url": "https://rogerz.dk/products/pokemon-tcg-30th-celebration-elite-trainer-box"
+    },
+    {
+      "id": "retailer-007",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Toys'n'Loot",
+      "url": "https://toysnloot.dk/vare/pokemon-30th-celebration-elite-trainer-box/"
+    },
+    {
+      "id": "retailer-008",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Coolshop",
+      "url": "https://www.coolshop.dk/produkt/pokemon-30th-celebration-elite-trainer-box-pok10447-101/23Y9WQ/"
+    },
+    {
+      "id": "retailer-009",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "&Cards",
+      "url": "https://www.andcards.dk/vare/pokemon-tcg-30th-celebration-elite-trainer-box/"
+    },
+    {
+      "id": "retailer-010",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Pocket Monster",
+      "url": "https://pocketmonster.dk/pokemon/pokemon-30th-celebration-elite-trainer-box/"
+    },
+    {
+      "id": "retailer-011",
+      "product": "Elite Trainer Box — Nidorina",
+      "shop": "Epic Panda",
+      "url": "https://epicpanda.dk/shop/pokemon-30th-celebration-elite-trainer-box-38337p.html"
+    },
+    {
+      "id": "retailer-012",
+      "product": "Booster Bundle — 6 packs",
+      "shop": "Pokehulen",
+      "url": "https://pokehulen.dk/products/pokemon-tcg-30th-celebration-booster-bundle"
+    },
+    {
+      "id": "retailer-013",
+      "product": "Booster Bundle — 6 packs",
+      "shop": "Vaulted",
+      "url": "https://www.vaulted.dk/products/pokemon-tcg-30th-celebration-booster-bundle"
+    },
+    {
+      "id": "retailer-014",
+      "product": "Booster Bundle — 6 packs",
+      "shop": "KoCardz",
+      "url": "https://www.kocardz.dk/vare/30th-celebration-booster-bundle/"
+    },
+    {
+      "id": "retailer-015",
+      "product": "Booster Bundle — 6 packs",
+      "shop": "Symbizon",
+      "url": "https://symbizon.dk/products/pokemon-kort-30th-celebration-booster-bundle-med-6-boosterpakker"
+    },
+    {
+      "id": "retailer-016",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "Vaulted",
+      "url": "https://www.vaulted.dk/products/pokemon-tcg-30th-celebration-ultra-premium-collections-day"
+    },
+    {
+      "id": "retailer-017",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "Pokehulen",
+      "url": "https://pokehulen.dk/products/pokemon-tcg-30th-celebration-espeon-ex-ultra-premium-collection-upc"
+    },
+    {
+      "id": "retailer-018",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "Faraos",
+      "url": "https://www.faraos.dk/games/kortspil/pokemon/premiumcollection/ultra-premium/30th-celebration-ultra-premium-collection-day-pokemon"
+    },
+    {
+      "id": "retailer-019",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "Kelz0r",
+      "url": "https://www.kelz0r.dk/magic/pokemon-mega-evolution-30th-celebration-ultrapremium-collection-day-espeon-2026-boosters-p-385688.html"
+    },
+    {
+      "id": "retailer-020",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "KoCardz",
+      "url": "https://www.kocardz.dk/vare/30th-celebration-ultra-premium-collection-espeon/"
+    },
+    {
+      "id": "retailer-021",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "Symbizon",
+      "url": "https://symbizon.dk/products/pokemon-kort-30th-celebration-ultra-premium-collection-espeon-ex-med-30-boosterpakker"
+    },
+    {
+      "id": "retailer-022",
+      "product": "Ultra-Premium Collection — Pokémon Day Out (Pikachu ex & Espeon ex)",
+      "shop": "CardX",
+      "url": "https://www.cardx.dk/en/products/pokemon-tcg-30th-celebration-ultra-premium-collection-day"
+    },
+    {
+      "id": "retailer-023",
+      "product": "Figure Collection — Mewtwo",
+      "shop": "CardX",
+      "url": "https://www.cardx.dk/en/collections/pokemon-tcg-30th-celebration/products/pokemon-tcg-30th-celebration-figure-collection-mewtwo"
+    },
+    {
+      "id": "retailer-024",
+      "product": "Tech Sticker Collection — Lucario",
+      "shop": "Epic Panda",
+      "url": "https://epicpanda.dk/shop/pokemon-30th-celebration-tech-sticker-collection-blister-lucario-38339p.html"
+    }
+  ]
+}
