@@ -2,7 +2,7 @@ import json, re, time, datetime, pathlib, requests
 from bs4 import BeautifulSoup
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CAT=json.loads((ROOT/'data/catalog.json').read_text())
-FEED=ROOT/'data/feed.json';HIST=ROOT/'data/history.json'
+FEED=ROOT/'data/feed.json';HIST=ROOT/'data/history.json';SERIES=ROOT/'data/price-history.json'
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
 def read(p,default):
  try:return json.loads(p.read_text())
@@ -53,7 +53,7 @@ def check(item,session):
  return out
 def main():
  old={o['id']:o for o in read(FEED,{}).get('offers',[])}
- history=read(HIST,[]);session=requests.Session();offers=[];changes=[]
+ history=read(HIST,[]);series=read(SERIES,[]);session=requests.Session();offers=[];changes=[]
  for item in CAT['listings']:
   x=check(item,session);prev=old.get(x['id'])
   if x['state']=='verified_structured' and prev and prev.get('state')=='verified_structured' and (x['price_dkk'],x['availability'])!=(prev.get('price_dkk'),prev.get('availability')):
@@ -61,6 +61,12 @@ def main():
    history.append(event);changes.append(event)
   if x['state']!='verified_structured' and prev and prev.get('state')=='verified_structured':x['last_verified']={'price_dkk':prev['price_dkk'],'availability':prev['availability'],'checked_at':prev['checked_at']}
   offers.append(x);time.sleep(.5)
- feed={'schema':1,'generated_at':now(),'source':'GitHub Actions automated retailer check','personal_data_included':False,'products':CAT['products'],'retailers':CAT['retailers'],'offers':offers,'recent_changes':history[-50:],'summary':{'checked':len(offers),'verified':sum(x['state']=='verified_structured' for x in offers),'unverified':sum(x['state']!='verified_structured' for x in offers),'new_changes':len(changes)}}
- save(FEED,feed);save(HIST,history[-2000:]);print(feed['summary'])
+ for x in offers:
+  if x['state']=='verified_structured':
+   series.append({'at':x['checked_at'],'id':x['id'],'product':x['product'],'shop':x['shop'],'price_dkk':x['price_dkk'],'availability':x['availability']})
+ # Keep up to one year of verified observations; no fabricated historical prices.
+ cutoff=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=365)).isoformat()
+ series=[x for x in series if x.get('at','')>=cutoff]
+ feed={'schema':1,'generated_at':now(),'source':'GitHub Actions automated retailer check','personal_data_included':False,'products':CAT['products'],'retailers':CAT['retailers'],'offers':offers,'recent_changes':history[-50:],'price_history':series,'summary':{'checked':len(offers),'verified':sum(x['state']=='verified_structured' for x in offers),'unverified':sum(x['state']!='verified_structured' for x in offers),'new_changes':len(changes)}}
+ save(FEED,feed);save(HIST,history[-2000:]);save(SERIES,series);print(feed['summary'])
 if __name__=='__main__':main()
