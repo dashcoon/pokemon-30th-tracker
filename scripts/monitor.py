@@ -22,8 +22,8 @@ def same(expected,actual):
   if token in e and token not in a:return False
  for token in ('elite trainer box','booster bundle','ultra premium collection','figure collection','tech sticker'):
   if token in e and token not in a:return False
- if 'day out' in e and not ('day' in a or 'espeon' in a):return False
- if 'night out' in e and not ('night' in a or 'umbreon' in a):return False
+ if 'pok mon day' in e and not ('day' in a or 'espeon' in a):return False
+ if 'pok mon night' in e and not ('night' in a or 'umbreon' in a):return False
  return True
 def check(item,session):
  out={**item,'checked_at':now(),'state':'unverified','price_dkk':None,'availability':'unknown','reason':'No matching product-specific structured offer'}
