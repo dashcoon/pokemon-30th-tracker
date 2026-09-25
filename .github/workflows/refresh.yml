@@ -1,7 +1,7 @@
 name: Refresh Pokémon prices
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
