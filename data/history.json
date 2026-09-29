@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "at": "2026-09-29T16:30:17+00:00",
+    "id": "retailer-015",
+    "shop": "Symbizon",
+    "product": "Booster Bundle — 6 packs",
+    "before": {
+      "price_dkk": 499.0,
+      "availability": "outofstock"
+    },
+    "after": {
+      "price_dkk": 599.0,
+      "availability": "outofstock"
+    }
+  }
+]
