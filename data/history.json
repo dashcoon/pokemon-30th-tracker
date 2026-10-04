@@ -54,5 +54,19 @@
       "price_dkk": 599.0,
       "availability": "instock"
     }
+  },
+  {
+    "at": "2026-10-04T18:09:31+00:00",
+    "id": "retailer-015",
+    "shop": "Symbizon",
+    "product": "Booster Bundle — 6 packs",
+    "before": {
+      "price_dkk": 599.0,
+      "availability": "instock"
+    },
+    "after": {
+      "price_dkk": 599.0,
+      "availability": "outofstock"
+    }
   }
 ]
