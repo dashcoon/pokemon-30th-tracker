@@ -2718,5 +2718,45 @@
     "shop": "Symbizon",
     "price_dkk": 2199.0,
     "availability": "outofstock"
+  },
+  {
+    "at": "2026-10-07T16:25:45+00:00",
+    "id": "retailer-012",
+    "product": "Booster Bundle — 6 packs",
+    "shop": "Pokehulen",
+    "price_dkk": 349.0,
+    "availability": "outofstock"
+  },
+  {
+    "at": "2026-10-07T16:25:46+00:00",
+    "id": "retailer-013",
+    "product": "Booster Bundle — 6 packs",
+    "shop": "Vaulted",
+    "price_dkk": 699.0,
+    "availability": "outofstock"
+  },
+  {
+    "at": "2026-10-07T16:25:49+00:00",
+    "id": "retailer-015",
+    "product": "Booster Bundle — 6 packs",
+    "shop": "Symbizon",
+    "price_dkk": 599.0,
+    "availability": "outofstock"
+  },
+  {
+    "at": "2026-10-07T16:25:51+00:00",
+    "id": "retailer-017",
+    "product": "Ultra-Premium Collection — Pokémon Day (Pikachu ex & Espeon ex)",
+    "shop": "Pokehulen",
+    "price_dkk": 2199.0,
+    "availability": "outofstock"
+  },
+  {
+    "at": "2026-10-07T16:25:56+00:00",
+    "id": "retailer-021",
+    "product": "Ultra-Premium Collection — Pokémon Day (Pikachu ex & Espeon ex)",
+    "shop": "Symbizon",
+    "price_dkk": 2199.0,
+    "availability": "outofstock"
   }
 ]
