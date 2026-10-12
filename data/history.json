@@ -82,5 +82,19 @@
       "price_dkk": 599.0,
       "availability": "instock"
     }
+  },
+  {
+    "at": "2026-10-12T16:55:44+00:00",
+    "id": "retailer-014",
+    "shop": "KoCardz",
+    "product": "Booster Bundle — 6 packs",
+    "before": {
+      "price_dkk": 599.0,
+      "availability": "instock"
+    },
+    "after": {
+      "price_dkk": 599.0,
+      "availability": "outofstock"
+    }
   }
 ]
