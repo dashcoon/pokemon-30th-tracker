@@ -96,5 +96,19 @@
       "price_dkk": 599.0,
       "availability": "outofstock"
     }
+  },
+  {
+    "at": "2026-10-15T22:58:47+00:00",
+    "id": "retailer-012",
+    "shop": "Pokehulen",
+    "product": "Booster Bundle — 6 packs",
+    "before": {
+      "price_dkk": 599.0,
+      "availability": "instock"
+    },
+    "after": {
+      "price_dkk": 599.0,
+      "availability": "outofstock"
+    }
   }
 ]
